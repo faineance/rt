@@ -1,0 +1,16 @@
+{
+    "name":"rt",
+    "version":"0.0.1",
+    "description":"",
+    "main": "rt.js",
+    "dependencies":{
+        "uglify-js":"^2.4.17"
+    },
+    "scripts":{
+        "build":"uglifyjs rt.js --mangle --source-map rt-min.map -o rt-min.js",
+        "test":"echo \"Error: no test specified\" && exit 1",
+        "doc":"docco rt.js"
+    },
+    "author":"faineance",
+    "license":"MIT"
+}
